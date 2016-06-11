@@ -4,7 +4,19 @@
 .header{
     font-family: 'NOTO Sans TC',sans-serif;
     background-image: url(https://raw.githubusercontent.com/david675566/ghost-family-website/gh-pages/img/1662348243.png);
+    background-position: center;
     color: #FFFFFF;
+}
+
+.header a{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.header-text{
+    margin: 50px;
+    text-align: center;
+    text-shadow: 3px 3px 25px #222222;
 }
 
 .header-tabs{
