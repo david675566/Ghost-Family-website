@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+.header{
+    font-family: 'NOTO Sans TC',sans-serif;
+    background-image: url(https://raw.githubusercontent.com/david675566/ghost-family-website/gh-pages/img/1662348243.png);
+    color: #FFFFFF;
+}
+
+.header-tabs{
+    font-family: 'cwTeXYen','NOTO Sans TC',sans-serif;
+    font-size: 17px;
+}
+
