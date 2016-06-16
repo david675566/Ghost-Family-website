@@ -2,7 +2,7 @@
 
 .header{
     font-family: 'NOTO Sans TC',sans-serif;
-    background-image: url("/img/1662348243.png");
+    background-image: url("https://raw.githubusercontent.com/david675566/ghost-family-website/gh-pages/img/1662348243.png");
     background-position: center;
     color: #FFFFFF;
 }
@@ -23,12 +23,21 @@
     font-size: 17px;
 }
 
-/*.footer{
+@-moz-document url-prefix(){
+    .header{
+        font-family: 'NOTO Sans TC',sans-serif;
+    }
+    .header-tabs{
+        font-family: 'cwTeXYen','NOTO Sans TC',sans-serif;
+    }
+}
+
+.footer{
     background-color: azure;
     position: absolute;
     bottom: 0;
 }
 
-.footer-text-2{
+/*.footer-text-2{
     text-align: right;
 }*/

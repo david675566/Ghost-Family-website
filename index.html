@@ -7,60 +7,67 @@
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
         <script src="js/jquery-1.12.4.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            function SetCwinHeight(){
+                var iframeid=document.getElementById("iframeid"); //iframe id
+                if (document.getElementById){
+                    if (iframeid && !window.opera){
+                        if (iframeid.contentDocument && iframeid.contentDocument.body.offsetHeight){
+                            iframeid.height = if rameid.contentDocument.body.offsetHeight;
+                        }else if(iframeid.Document && iframeid.Document.body.scrollHeight){
+                                    iframeid.height = iframeid.Document.body.scrollHeight;
+                            }
+                        }
+                    }
+                }
+        </script>
         <title>鬼成家族官網</title>
     </head>
     <body>
-        <div class="header">
-    <div class="container">
-        <div class="row">
-            <div class="header-text">
-                <h1>鬼城家族官方網站</h1>
-            </div>
-            <ul class="nav nav-tabs header-tabs">
-                <li><a href="#">首頁</a></li>
-                    <li><a href="#">鬼城家規</a></li>
-                    <li><a href="#">鬼城勢力分佈伺服器一覽</a></li>
-                    <li><a href="#">鬼城實況區</a></li>
-                    <li><a href="#">鬼城說書中心</a></li>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="header-text">
+                    <h1>鬼城家族官方網站</h1>
+                </div>
+                <ul class="nav nav-tabs header-tabs">
+                    <li><a target="body-content" href="home.html">首頁</a></li>
+                    <li><a target="body-content" href="#rules">鬼城家規</a></li>
+                    <li><a target="body-content" href="#server">鬼城勢力分佈伺服器一覽</a></li>
+                    <li><a target="body-content" href="#boardcast">鬼城實況區</a></li>
+                    <li><a target="body-content" href="#novel">鬼城說書中心</a></li>
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">新世紀伺服器 <b class="caret"></b></a>
+                        <a href="#newcentery" class="dropdown-toggle" data-toggle="dropdown">新世紀伺服器 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="##">指令專區</a></li>
-                            <li><a href="##">商店傳送點</a></li>
-                            <li><a href="##">TH社區專區</a></li>
-                            <li><a href="##">新世紀論壇</a></li>
-                            <li><a href="##">新世紀官方網站</a></li>
-                            <li><a href="##">新世紀粉絲專頁</a></li>
+                            <li><a target="body-content" href="##commands">指令專區</a></li>
+                            <li><a target="body-content" href="##teleport">商店傳送點</a></li>
+                            <li><a target="body-content" href="##community">TH社區專區</a></li>
+                            <li><a target="_blank" href="http://f.ncsv.tw/forum.php">新世紀論壇</a></li>
+                            <li><a target="_blank" href="http://w.ncsv.tw/">新世紀官方網站</a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/ncmcsv">新世紀粉絲專頁</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">常見問題</a></li>
+                    <li><a target="body-content" href="#qna">常見問題</a></li>
                     <li class="dropdown">
-                        <a href="#"  class="dropdown-toggle" data-toggle="dropdown">關於鬼城 <b class="caret"></b></a>
+                        <a href="#ghostfamily"  class="dropdown-toggle" data-toggle="dropdown">關於鬼城 <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="##">關於我們</a></li>
-                            <li><a href="##">加入鬼城</a></li>
-                            <li><a href="##">聯絡我們</a></li>
+                            <li><a target="body-content" href="##about">關於我們</a></li>
+                            <li><a target="body-content" href="##join">加入鬼城</a></li>
+                            <li><a target="body-content" href="##contect">聯絡我們</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
-        <div class="body-contect">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="contect-text">
-                        <h3>歡迎蒞臨鬼城家族官方網站</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-        <!--<div class="footer">
+    <iframe width="100%" marginwidth="0" marginheight="0" name="body-content" frameborder="0" scrolling="no" onload="Javascrpit:SetCwinHeight()">
+        您目前使用的瀏覽器不支援本網頁所需功能<br>
+        請改用最新版之 Internet Explorer, Edge, Firefox, Google Chrome, Safari, Opera 等
+    </iframe>
+    <div class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="foter-text-1">
+                    <div class="footer-text-1">
                         <div class="col-md-4">
                         <h6>All copyrights are blong to Ghost-Family and Mx.D</h6>
                         </div>
@@ -72,6 +79,6 @@
                     </div>
                 </div>
             </div>
-        </div>-->
+        </div>
     </body>
 </html>
