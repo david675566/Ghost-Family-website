@@ -5,22 +5,9 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-        <script src="js/jquery-1.12.4.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script type="text/javascript">
-            function SetCwinHeight(){
-                var iframeid=document.getElementById("iframeid"); //iframe id
-                if (document.getElementById){
-                    if (iframeid && !window.opera){
-                        if (iframeid.contentDocument && iframeid.contentDocument.body.offsetHeight){
-                            iframeid.height = if rameid.contentDocument.body.offsetHeight;
-                        }else if(iframeid.Document && iframeid.Document.body.scrollHeight){
-                                    iframeid.height = iframeid.Document.body.scrollHeight;
-                            }
-                        }
-                    }
-                }
-        </script>
+        <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
         <title>鬼成家族官網</title>
     </head>
     <body>
@@ -31,8 +18,8 @@
                     <h1>鬼城家族官方網站</h1>
                 </div>
                 <ul class="nav nav-tabs header-tabs">
-                    <li><a target="body-content" href="home.html">首頁</a></li>
-                    <li><a target="body-content" href="#rules">鬼城家規</a></li>
+                    <li><a target="body-content" href="first.html">首頁</a></li>
+                    <li><a target="body-content" href="rules.html">鬼城家規</a></li>
                     <li><a target="body-content" href="#server">鬼城勢力分佈伺服器一覽</a></li>
                     <li><a target="body-content" href="#boardcast">鬼城實況區</a></li>
                     <li><a target="body-content" href="#novel">鬼城說書中心</a></li>
@@ -60,7 +47,7 @@
             </div>
         </div>
     </div>
-    <iframe width="100%" marginwidth="0" marginheight="0" name="body-content" frameborder="0" scrolling="no" onload="Javascrpit:SetCwinHeight()">
+    <iframe id="body-content" width="100%" marginwidth="0" marginheight="0" name="body-content" frameborder="0" scrolling="no" onload="SetCwinHeight();">
         您目前使用的瀏覽器不支援本網頁所需功能<br>
         請改用最新版之 Internet Explorer, Edge, Firefox, Google Chrome, Safari, Opera 等
     </iframe>
@@ -68,14 +55,10 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-text-1">
-                        <div class="col-md-4">
-                        <h6>All copyrights are blong to Ghost-Family and Mx.D</h6>
-                        </div>
+                        <h6>All copyrights are belongs to Ghost-Family and Mx.D</h6>
                     </div>
                     <div class="footer-text-2">
-                        <div class="col-md-4">
-                            <h6>This website is made with Brackets,<br>and deployed at Github.</h6>
-                        </div>
+                            <h6>This website was made with Brackets,<br>and deployed at Github Inc.</h6>
                     </div>
                 </div>
             </div>

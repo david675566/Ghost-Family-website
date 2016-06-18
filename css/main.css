@@ -33,11 +33,23 @@
 }
 
 .footer{
-    background-color: azure;
-    position: absolute;
+    background-color: #ecf0f0;
+    position: relative;
     bottom: 0;
+    display: inline;
+    width: 100%;
 }
 
-/*.footer-text-2{
-    text-align: right;
+.footer-text-1{
+    float: left;
+}
+
+.footer-text-2{
+    text-align-last: right;
+    float: right;
+}
+
+/*rules.html
+.col-md-6{
+    margin:50px;
 }*/
