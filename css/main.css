@@ -1,7 +1,9 @@
 @import url("webfonts.css");
+.body{
+    font-family: 'NOTO Sans TC',sans-serif;
+}
 
 .header{
-    font-family: 'NOTO Sans TC',sans-serif;
     background-image: url("https://raw.githubusercontent.com/david675566/ghost-family-website/gh-pages/img/1662348243.png");
     background-position: center;
     color: #FFFFFF;
@@ -24,9 +26,10 @@
 }
 
 @-moz-document url-prefix(){
-    .header{
-        font-family: 'NOTO Sans TC',sans-serif;
+    .body{
+    font-family: 'NOTO Sans TC',sans-serif;
     }
+    
     .header-tabs{
         font-family: 'cwTeXYen','NOTO Sans TC',sans-serif;
     }
@@ -53,3 +56,22 @@
 .col-md-6{
     margin:50px;
 }*/
+
+/*server.html*/
+
+.other{
+    display: inline;
+}
+
+.other img{
+    float: left;
+}
+
+.status{
+    float: right;
+}
+
+.open{
+    color: #49cc2a;
+    text-shadow: 1px 1px 10px #BBBBBB;
+}
