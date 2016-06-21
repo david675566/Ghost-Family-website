@@ -4,7 +4,7 @@
 }
 
 .header{
-    background-image: url("/img/1662348243.png");
+    background-image: url("/ghost-family-website/img/1662348243.png");
     background-position: center;
     color: #FFFFFF;
 }
@@ -58,17 +58,14 @@
 }*/
 
 /*server.html*/
-
-.other{
-    display: inline;
-}
-
 .other img{
+    display: inline;
     float: left;
+    margin-right: 15px;
 }
 
 .status{
-    float: right;
+    display: inline;
 }
 
 .open{
