@@ -1,0 +1,74 @@
+@import url("webfonts.css");
+.body{
+    font-family: 'NOTO Sans TC',sans-serif;
+}
+
+.header{
+    background-image: url("/ghost-family-website/img/1662348243.png");
+    background-position: center;
+    color: #FFFFFF;
+}
+
+.header a{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.header-text{
+    margin: 50px;
+    text-align: center;
+    text-shadow: 3px 3px 25px #222222;
+}
+
+.header-tabs{
+    font-family: 'cwTeXYen','NOTO Sans TC',sans-serif;
+    font-size: 17px;
+}
+
+@-moz-document url-prefix(){
+    .body{
+    font-family: 'NOTO Sans TC',sans-serif;
+    }
+    
+    .header-tabs{
+        font-family: 'cwTeXYen','NOTO Sans TC',sans-serif;
+    }
+}
+
+.footer{
+    background-color: #ecf0f0;
+    position: relative;
+    bottom: 0;
+    display: inline;
+    width: 100%;
+}
+
+.footer-text-1{
+    float: left;
+}
+
+.footer-text-2{
+    text-align-last: right;
+    float: right;
+}
+
+/*rules.html
+.col-md-6{
+    margin:50px;
+}*/
+
+/*server.html*/
+.other img{
+    display: inline;
+    float: left;
+    margin-right: 15px;
+}
+
+.status{
+    display: inline;
+}
+
+.open{
+    color: #49cc2a;
+    text-shadow: 1px 1px 10px #BBBBBB;
+}
